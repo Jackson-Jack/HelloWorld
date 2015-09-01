@@ -21,7 +21,7 @@
     self.view.backgroundColor = [UIColor redColor];
     
     UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 100, 44)];
-    titleLabel.text = @"Test";
+    titleLabel.text = @"abc";
     [self.view addSubview:titleLabel];
 }
 
