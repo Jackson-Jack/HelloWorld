@@ -33,6 +33,8 @@
     [sendButton setTitle:@"测试 cloud" forState:UIControlStateNormal];
     [self.view addSubview:sendButton];
     [sendButton addTarget:self action:@selector(sendButtonClicked) forControlEvents:UIControlEventTouchUpInside];
+    
+    NSLog(@"这是release_150924 分支！");
 }
 
 - (void)sendButtonClicked
